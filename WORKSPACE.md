@@ -7,7 +7,8 @@
 | 想找或新增的内容 | 位置 |
 |---|---|
 | 参与贡献、提交 PR 或提出知识候选 | `CONTRIBUTING.md` |
-| 组织责任、安全和仓库治理 | `governance/` |
+| 组织实践和文档治理 | `practices/` |
+| 仓库登记和仓库规则 | `registry/` |
 | 跨项目通用工程实践 | `practices/` |
 | AI Native 原则、模式和工作流 | `ai-native/` |
 | 上下文、记忆和知识晋升机制 | `ai-native/context-system/` |

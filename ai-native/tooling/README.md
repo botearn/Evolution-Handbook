@@ -10,6 +10,7 @@
 |---|---|---|
 | Codex | 软件工程 Agent 与可扩展工作台 | [Codex Practices](codex.md) |
 | Claude Code | 终端型软件工程 Agent | [Claude Code Practices](claude-code.md) |
+| Claude Auth | 账号、OAuth profile 与 API token 的使用边界 | [Claude Auth](claude-auth.md) |
 | OpenClaw | 飞书中的常驻协作 Agent 与任务路由层 | [OpenClaw Practices](openclaw.md) |
 | Feishu CLI | Agent 访问飞书协作系统的结构化接口 | [Feishu CLI Practices](feishu-cli.md) |
 

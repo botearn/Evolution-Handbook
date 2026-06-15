@@ -21,9 +21,9 @@
 当前候选：
 
 - [Docs Quality Automation](docs-quality-automation.md)
+- [ARTI 跨仓库契约显式化](arti-contracts-explicit.md)
+- [Handbook 与私有 Context Workspace 分层](public-private-context-split.md)
 - ARTI 多仓库 Agent 工作台整理
-- ARTI 跨仓库契约显式化
-- Handbook 与私有 Context Workspace 分层
 
 候选项只有补齐前后对比、实际结果和限制后，才能建立独立案例文档。
 

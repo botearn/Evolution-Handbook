@@ -25,7 +25,7 @@ flowchart TB
 
 | Trait | 主导成员 | 辅助成员 | 当前缺口 | 验证方式 |
 |---|---|---|---|---|
-| Builder |  |  |  | 原型或交付周期 |
+| Builder / Pirate |  |  |  | 原型或交付周期 |
 | Architect |  |  |  | 稳定性、扩展性和债务 |
 | Taste Maker |  |  |  | 体验评审和用户反馈 |
 | Signal Reader |  |  |  | 研究质量和市场证据 |
@@ -38,14 +38,14 @@ flowchart TB
 | 阶段 | 优先 Trait | 常见风险 |
 |---|---|---|
 | 问题探索 | Signal Reader、Decision Maker | 过早开始实现 |
-| 原型验证 | Builder、Taste Maker | 做得快但不可用 |
+| 原型验证 | Builder / Pirate、Taste Maker | 做得快但不可用 |
 | 产品化 | Architect、Taste Maker | 原型债务拖垮体验 |
 | 增长验证 | Signal Reader、Decision Maker | 指标增长但价值不成立 |
 | 规模化 | Architect、Decision Maker | 局部效率损害整体系统 |
 
 重心变化不代表其他 Trait 可以缺席。
 
-## Builder 与 Architect 的协作
+## Builder / Pirate 与 Architect 的协作
 
 速度和可持续性不应变成两个角色互相甩锅。
 

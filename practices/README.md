@@ -5,6 +5,7 @@
 ## 当前内容
 
 - [文档生命周期](documentation-lifecycle.md)
+- [Handbook 内容治理](handbook-content-policy.md)
 - [知识复审](knowledge-review.md)
 - [Contract 变更 SOP](contract-change-sop.md)
 

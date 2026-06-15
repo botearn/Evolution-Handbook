@@ -7,6 +7,7 @@ Registry 是供人和 Agent 查询的结构化组织登记表。
 - [`projects.yaml`](projects.yaml)：项目状态及所含仓库
 - [`repositories.yaml`](repositories.yaml)：仓库远端、职责和生命周期
 - [`schema.md`](schema.md)：Registry schema version 1 和字段说明
+- [`repository-policy.md`](repository-policy.md)：仓库登记、归属和归档规则
 
 ## 字段要求
 

@@ -107,7 +107,8 @@ Agent 生成不等于验证完成。PR 中应写明实际核对过什么。
 
 | 内容 | 位置 |
 |---|---|
-| 组织责任和治理 | `governance/` |
+| 组织实践和文档治理 | `practices/` |
+| 仓库登记和仓库规则 | `registry/` |
 | 跨项目通用工程实践 | `practices/` |
 | AI Native 原则、工具和工作流 | `ai-native/` |
 | 项目边界和跨仓库契约 | `projects/<project>/` |

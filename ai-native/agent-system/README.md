@@ -5,6 +5,7 @@ Agent System 记录组成组织级 Agent 工作台的长期结构，包括指令
 ## 当前内容
 
 - [Agent 指令层级](instruction-hierarchy.md)
+- [Useful Skills](skills/README.md)
 
 ## 内容边界
 
