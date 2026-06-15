@@ -1,0 +1,44 @@
+schema_version: 1
+
+repositories:
+  - id: evolution-handbook
+    remote: https://github.com/botearn/Evolution-Handbook.git
+    project: organization
+    responsibility: Organization handbook and AI Native practices
+    status: active
+    default_branch: main
+
+  - id: arti
+    remote: https://github.com/iloveopt/arti.git
+    project: arti
+    responsibility: Main product and investment research experience
+    status: active
+    default_branch: main
+
+  - id: arti-backend
+    remote: https://github.com/botearn/ARTI_backend.git
+    project: arti
+    responsibility: Report tasks, workers, and backend services
+    status: active
+    default_branch: main
+
+  - id: arti-poly
+    remote: https://github.com/botearn/ARTi-poly.git
+    project: arti
+    responsibility: Prediction market product
+    status: active
+    default_branch: main
+
+  - id: arti-cli
+    remote: https://github.com/botearn/ARTI-CLI.git
+    project: arti
+    responsibility: CLI, MCP integration, and local market data tools
+    status: active
+    default_branch: master
+
+  - id: reddit-agent
+    remote: https://github.com/YuqingNicole/reddit_agent.git
+    project: unassigned
+    responsibility: Reddit research and operations application
+    status: active
+    default_branch: main

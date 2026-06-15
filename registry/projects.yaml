@@ -1,0 +1,12 @@
+schema_version: 1
+
+projects:
+  - id: arti
+    name: ARTI
+    status: active
+    handbook_path: projects/arti
+    repositories:
+      - arti
+      - arti-backend
+      - arti-poly
+      - arti-cli
