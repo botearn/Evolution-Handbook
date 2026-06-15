@@ -30,6 +30,7 @@ flowchart LR
 | 你现在想做 | 从这里开始 |
 |---|---|
 | 第一次来，不知道先读什么 | [Onboarding Quickstart](ONBOARDING.md) |
+| Agent 开始执行任务 | [Agent 专用入口](AGENTS.md) |
 | 了解 ARTI | [ARTI 项目入口](projects/arti/README.md) |
 | 在飞书里和 OpenClaw 协作 | [飞书与 OpenClaw 协作](ai-native/workflows/feishu-openclaw-collaboration.md) |
 | 使用 Codex、Claude Code 或 Feishu CLI | [AI 工具实践](ai-native/tooling/README.md) |
