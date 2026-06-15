@@ -5,6 +5,8 @@
 ## 当前内容
 
 - [文档生命周期](documentation-lifecycle.md)
+- [知识复审](knowledge-review.md)
+- [Contract 变更 SOP](contract-change-sop.md)
 
 ## 计划覆盖
 

@@ -13,6 +13,7 @@
 ## 当前内容
 
 - [AI 风险与自动化等级](risk-and-automation-levels.md)
+- [Agent 权限矩阵](agent-permission-matrix.md)
 
 ## 当前缺口
 
