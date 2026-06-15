@@ -64,5 +64,5 @@ Agent 工作很快，但如果只留下最后结果，后来很难判断：
 ## 采用证据
 
 - 项目：Evolution Handbook
-- 结果：本仓开始使用计划文件、`npm run check`、Registry 校验和 metadata 校验来保留可回看的工作轨迹。
+- 结果：本仓开始使用计划文件、`npm run check` 和 metadata 校验来保留可回看的工作轨迹。
 - 限制：当前仍是 Pattern Candidate，尚未证明适用于所有项目。

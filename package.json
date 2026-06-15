@@ -6,10 +6,8 @@
   "type": "module",
   "scripts": {
     "lint:md": "markdownlint-cli2 \"**/*.md\" \"!node_modules/**\"",
-    "lint:yaml": "node -e \"import fs from 'node:fs'; import YAML from 'yaml'; for (const file of ['registry/projects.yaml','registry/repositories.yaml']) { YAML.parse(fs.readFileSync(file, 'utf8')); console.log('YAML OK:', file); }\"",
-    "validate:registry": "node scripts/validate-registry.mjs",
     "validate:metadata": "node scripts/validate-doc-metadata.mjs",
-    "check": "npm run lint:md && npm run lint:yaml && npm run validate:registry && npm run validate:metadata"
+    "check": "npm run lint:md && npm run validate:metadata"
   },
   "devDependencies": {
     "markdownlint-cli2": "^0.17.2",

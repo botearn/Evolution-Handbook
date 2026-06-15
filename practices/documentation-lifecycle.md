@@ -47,4 +47,4 @@ Candidate -> Draft -> Adopted -> Standard
 - 本地链接和代码块检查通过
 - 事实、建议与假设已区分
 - 没有引入新的重复真源
-- 相关项目或 Registry 已同步
+- 相关项目文档已同步

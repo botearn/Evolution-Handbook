@@ -29,7 +29,7 @@
 4. 通知受影响 Owner。
 5. 先合并读取兼容，再切换写入。
 6. 跑跨仓验证。
-7. 更新 Contract、Decision、README 和 Registry。
+7. 更新 Contract、Decision、README 和相关项目文档。
 8. 到期删除旧兼容路径。
 
 ## Breaking change 额外要求

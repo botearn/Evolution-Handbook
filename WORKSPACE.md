@@ -8,7 +8,6 @@
 |---|---|
 | 参与贡献、提交 PR 或提出知识候选 | `CONTRIBUTING.md` |
 | 组织实践和文档治理 | `practices/` |
-| 仓库登记和仓库规则 | `registry/` |
 | 跨项目通用工程实践 | `practices/` |
 | AI Native 原则、模式和工作流 | `ai-native/` |
 | 上下文、记忆和知识晋升机制 | `ai-native/context-system/` |
@@ -16,7 +15,6 @@
 | 飞书、OpenClaw 与专业 Agent 的协作流程 | `ai-native/workflows/feishu-openclaw-collaboration.md` |
 | 某个项目的架构与跨仓契约 | `projects/<project>/` |
 | 可复制模板 | `templates/` |
-| 项目、仓库和服务登记 | `registry/` |
 
 ## 内容类型路由
 

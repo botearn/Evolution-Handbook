@@ -19,7 +19,6 @@
 | 内容 | 真源位置 | 说明 |
 |---|---|---|
 | 组织实践和文档治理 | `practices/` | 对所有项目有效 |
-| 仓库登记和仓库规则 | `registry/` | 仓库目录、状态和维护规则 |
 | 通用工程实践 | `practices/` | 不绑定具体技术栈 |
 | AI Native 方法 | `ai-native/` | 人机协作、Agent、治理与评估 |
 | 上下文生命周期 | `ai-native/context-system/` | 定义采集、观察、反思和晋升机制 |
@@ -30,7 +29,6 @@
 | Agent 本地指令 | 对应 repo 的 `AGENTS.md` | 必须贴近代码，可直接执行 |
 | 构建与部署命令 | 对应 repo | Handbook 只描述通用流程 |
 | API schema / migration | 对应 repo | 代码资产优先于说明文档 |
-| 项目和仓库目录 | `registry/` | 结构化组织登记 |
 | 原始观察与私密记忆 | 私有 Context Workspace | 不进入公共 Handbook |
 
 ## 引用规则

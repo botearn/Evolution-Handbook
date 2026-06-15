@@ -26,7 +26,7 @@ last_reviewed: YYYY-MM-DD
 
 ## 仓库与服务
 
-链接到 `repositories.md` 和 `registry/`。
+链接到 `repositories.md` 和相关项目文档。
 
 ## 跨仓库契约
 

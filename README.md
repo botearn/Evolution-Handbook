@@ -168,7 +168,6 @@ flowchart TB
     H --> AI["ai-native<br/>人和 Agent 如何协作"]
     H --> Projects["projects<br/>项目边界、决策、契约"]
     H --> Templates["templates<br/>可复制文档结构"]
-    H --> Registry["registry<br/>项目与仓库登记"]
 
     AI --> Principles["principles"]
     AI --> Operating["operating-model"]
