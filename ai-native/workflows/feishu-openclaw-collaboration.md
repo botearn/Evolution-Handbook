@@ -29,9 +29,9 @@
 - 检索和摘要
 - 生成会议或项目草稿
 - 创建 Knowledge Candidate
-- 查询项目状态、任务、PR、CI、发布和监控摘要
+- 查询项目 About、状态、任务、PR、CI、Release 和监控摘要
 - 接收异常、阻塞、过期事项和待审批提醒
-- 发起 bug 修复流程
+- 发起 bug 修复或 Release 协调流程
 - 启动低风险、已有 Playbook 的任务
 - 路由代码任务给 Codex 或 Claude Code
 
@@ -160,11 +160,41 @@ OpenClaw 可以生成候选草稿，但不能自动将群聊结论合并为 Stan
 
 OpenClaw 可以在 Thread 中汇总：
 
-- 项目、任务、PR、CI、发布和监控状态
-- Owner、阻塞项、待审批动作和下一步
-- 相关 Handbook、项目契约、Playbook 或真实系统链接
+- About：项目目标、Owner、仓库、环境、入口链接和当前边界
+- 状态：任务、PR、CI、Release、监控、阻塞项和下一步
+- 链接：Handbook、项目契约、Playbook、真实系统和相关 Thread
 
 写操作仍按风险等级处理；发布、权限、结算、生产数据和外部正式消息必须先 dry-run + 人审。
+
+## Release 协调
+
+飞书可以发起 Release 协调，但不能替代发布系统和项目级 release playbook。
+
+OpenClaw 在执行或路由前补齐：
+
+```text
+Release 目标：
+变更范围：
+涉及仓库：
+验证方式：
+回滚方式：
+Owner / Reviewer：
+计划窗口：
+```
+
+默认流程：
+
+```text
+确认范围
+  -> 检查 PR、CI、迁移、Feature Flag 和依赖顺序
+  -> 汇总 dry-run / release plan
+  -> 人审批准
+  -> 执行或路由发布
+  -> 监控结果
+  -> 回到原 Thread 汇报
+```
+
+生产发布、回滚、权限、结算或数据迁移都属于高风险动作，必须明确批准后执行。
 
 ## 监控与通知
 
