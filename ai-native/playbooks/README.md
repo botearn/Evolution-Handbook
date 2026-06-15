@@ -16,4 +16,4 @@ Playbook 将组织原则转换为可以执行和检查的步骤。
 - 完成条件与证据
 - Owner 和复审触发条件
 
-新增 Playbook 使用 [Playbook 模板](../../templates/playbook.md)。绑定单个项目的流程放在 `projects/<project>/playbooks/`。
+新增 Playbook 可以先从最小结构开始。绑定单个项目的流程放在 `projects/<project>/playbooks/`。

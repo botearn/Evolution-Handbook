@@ -21,4 +21,4 @@ Principle 应：
 - 有真实工作证据或明确理论来源
 - 可以派生出 Pattern、Playbook 或治理规则
 
-具体操作步骤不应塞进 Principle。新增内容使用 [Practice 模板](../../templates/practice.md) 并调整为原则结构。
+具体操作步骤不应塞进 Principle。新增内容先写清判断、边界和证据。

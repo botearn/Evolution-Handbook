@@ -14,7 +14,6 @@
 | Codex、Claude Code、OpenClaw、Feishu CLI 等工具实践 | `ai-native/tooling/` |
 | 飞书、OpenClaw 与专业 Agent 的协作流程 | `ai-native/workflows/feishu-openclaw-collaboration.md` |
 | 某个项目的架构与跨仓契约 | `projects/<project>/` |
-| 可复制模板 | `templates/` |
 
 ## 内容类型路由
 

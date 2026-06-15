@@ -5,18 +5,7 @@ import YAML from 'yaml';
 
 const root = process.cwd();
 const errors = [];
-const templateFiles = [
-  'templates/case-study.md',
-  'templates/contract.md',
-  'templates/decision.md',
-  'templates/pattern.md',
-  'templates/playbook.md',
-  'templates/practice.md',
-  'templates/project-readme.md',
-];
-
 const scanDirectories = [
-  'templates',
   'governance',
   'projects/arti/contracts',
   'projects/arti/decisions',
@@ -73,14 +62,8 @@ const files = [...new Set(scanDirectories.flatMap(listMarkdownFiles))];
 for (const filePath of files) {
   const source = fs.readFileSync(path.join(root, filePath), 'utf8');
   const frontmatter = parseFrontmatter(source, filePath);
-  const isTemplate = templateFiles.includes(filePath);
 
-  if (!frontmatter) {
-    if (isTemplate) {
-      fail(`${filePath}: 模板文件必须包含 frontmatter`);
-    }
-    continue;
-  }
+  if (!frontmatter) continue;
 
   requireString(frontmatter, 'status', filePath);
   requireString(frontmatter, 'owner', filePath);

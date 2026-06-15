@@ -16,4 +16,4 @@ Pattern 描述在特定条件下可重复采用的结构，同时保留代价和
 - 至少一个采用证据
 - 验证和退出条件
 
-新增 Pattern 使用 [Pattern 模板](../../templates/pattern.md)。没有项目证据时保持 `Pattern Candidate`。
+新增 Pattern 可以先从最小结构开始；没有项目证据时保持 `Pattern Candidate`。
