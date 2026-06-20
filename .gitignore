@@ -10,5 +10,3 @@ projects/arti/*
 projects/arti/product/*
 !projects/arti/product/README.md
 !projects/arti/product/operations-prd.md
-.vitepress/dist
-.vitepress/cache

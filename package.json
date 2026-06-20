@@ -7,14 +7,10 @@
   "scripts": {
     "lint:md": "markdownlint-cli2 \"**/*.md\" \"!node_modules/**\"",
     "validate:metadata": "node scripts/validate-doc-metadata.mjs",
-    "check": "npm run lint:md && npm run validate:metadata",
-    "docs:dev": "vitepress dev .",
-    "docs:build": "vitepress build .",
-    "docs:preview": "vitepress preview ."
+    "check": "npm run lint:md && npm run validate:metadata"
   },
   "devDependencies": {
     "markdownlint-cli2": "^0.17.2",
-    "vitepress": "^1.6.4",
     "yaml": "^2.6.1"
   }
 }
