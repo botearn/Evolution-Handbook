@@ -1,0 +1,8 @@
+import{_ as s,o as e,c as n,a2 as t}from"./chunks/framework.DZrHScmQ.js";const _=JSON.parse('{"title":"Projects","description":"","frontmatter":{},"headers":[],"relativePath":"projects/index.md","filePath":"projects/README.md"}'),p={name:"projects/index.md"};function i(o,a,r,c,l,d){return e(),n("div",null,[...a[0]||(a[0]=[t(`<h1 id="projects" tabindex="-1">Projects <a class="header-anchor" href="#projects" aria-label="Permalink to &quot;Projects&quot;">​</a></h1><p>项目是面向同一产品目标或业务结果的一组仓库和服务，不等同于单个 Git 仓库。</p><p>每个项目目录应包含：</p><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>projects/&lt;project&gt;/</span></span>
+<span class="line"><span>├── README.md          项目目标、边界和负责人</span></span>
+<span class="line"><span>├── architecture.md    项目级系统结构</span></span>
+<span class="line"><span>├── repositories.md    仓库与服务地图</span></span>
+<span class="line"><span>├── ai-native.md       采用的组织实践与例外</span></span>
+<span class="line"><span>├── contracts/         跨仓库契约</span></span>
+<span class="line"><span>├── decisions/         项目级长期决策</span></span>
+<span class="line"><span>└── playbooks/         项目级操作手册</span></span></code></pre></div><p>只有跨越仓库边界的内容才进入项目目录。单仓库实现细节继续留在对应仓库。</p><h2 id="当前项目" tabindex="-1">当前项目 <a class="header-anchor" href="#当前项目" aria-label="Permalink to &quot;当前项目&quot;">​</a></h2><ul><li><a href="./arti/README.html">ARTI</a></li></ul>`,7)])])}const m=s(p,[["render",i]]);export{_ as __pageData,m as default};
