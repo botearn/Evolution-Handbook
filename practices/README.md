@@ -9,13 +9,12 @@
 - [协作文化](collaboration-culture.md)
 - [知识复审](knowledge-review.md)
 - [Contract 变更 SOP](contract-change-sop.md)
+- [工程纪律](engineering-discipline.md)
 
 ## 计划覆盖
 
 - Git 与代码评审
 - 测试与验证
-- 发布与变更管理
-- 事故响应与复盘
 - RFC 与技术决策
 - 文档维护
 
